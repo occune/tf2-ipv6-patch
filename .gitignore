@@ -1,0 +1,17 @@
+# Build artifacts
+*.o
+*.so
+test_shim
+
+# Compiled binaries (rebuild from source)
+libtf2_ipv6_shim.so
+libminimal_shim.so
+
+# Goldberg emu binaries (do not redistribute — download separately)
+fakehome/
+
+# Editor/OS cruft
+*.swp
+*.swo
+*~
+.DS_Store
